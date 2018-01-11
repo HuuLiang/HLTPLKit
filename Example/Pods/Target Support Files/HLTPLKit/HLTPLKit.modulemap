@@ -1,0 +1,6 @@
+framework module HLTPLKit {
+  umbrella header "HLTPLKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

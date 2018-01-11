@@ -1,0 +1,25 @@
+PODS:
+  - HLTPLKit (0.1.0):
+    - HLTPLKit/Alipay (= 0.1.0)
+    - HLTPLKit/Tencent (= 0.1.0)
+    - HLTPLKit/Wechat (= 0.1.0)
+  - HLTPLKit/Alipay (0.1.0)
+  - HLTPLKit/Tencent (0.1.0)
+  - HLTPLKit/Wechat (0.1.0):
+    - WechatOpenSDK
+  - WechatOpenSDK (1.8.1)
+
+DEPENDENCIES:
+  - HLTPLKit (from `../`)
+
+EXTERNAL SOURCES:
+  HLTPLKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HLTPLKit: 3678f64c8351df3f48ecba40e161b5d0e07fe1c5
+  WechatOpenSDK: 491d965d79335070328571d3e79f714549e79a5e
+
+PODFILE CHECKSUM: 6e37cb12d1913d286f7f6cd4c17bc3eb8487db49
+
+COCOAPODS: 1.3.1
