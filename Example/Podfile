@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HLTPLKit_Example' do
+  pod 'HLTPLKit', :path => '../'
+
+  target 'HLTPLKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
