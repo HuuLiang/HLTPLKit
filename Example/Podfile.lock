@@ -1,11 +1,11 @@
 PODS:
-  - HLTPLKit (0.1.0):
-    - HLTPLKit/Alipay (= 0.1.0)
-    - HLTPLKit/Tencent (= 0.1.0)
-    - HLTPLKit/Wechat (= 0.1.0)
-  - HLTPLKit/Alipay (0.1.0)
-  - HLTPLKit/Tencent (0.1.0)
-  - HLTPLKit/Wechat (0.1.0):
+  - HLTPLKit (0.1.1):
+    - HLTPLKit/Alipay (= 0.1.1)
+    - HLTPLKit/Tencent (= 0.1.1)
+    - HLTPLKit/Wechat (= 0.1.1)
+  - HLTPLKit/Alipay (0.1.1)
+  - HLTPLKit/Tencent (0.1.1)
+  - HLTPLKit/Wechat (0.1.1):
     - WechatOpenSDK
   - WechatOpenSDK (1.8.1)
 
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  HLTPLKit: 3678f64c8351df3f48ecba40e161b5d0e07fe1c5
+  HLTPLKit: 23d7b579220e2b8aba8e17a4337f33fcaf1758f4
   WechatOpenSDK: 491d965d79335070328571d3e79f714549e79a5e
 
 PODFILE CHECKSUM: 6e37cb12d1913d286f7f6cd4c17bc3eb8487db49

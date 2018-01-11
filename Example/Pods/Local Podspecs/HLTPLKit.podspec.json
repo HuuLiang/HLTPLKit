@@ -1,6 +1,6 @@
 {
   "name": "HLTPLKit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Include third part sdks, like AlipaySDk,WechatOpenAPI,TencentOpenAPI,etc!",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/HuuLiang/HLTPLKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/HuuLiang/HLTPLKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -24,20 +24,19 @@
       "vendored_frameworks": "HLTPLKit/AlipaySDK/AlipaySDK.framework",
       "resources": "HLTPLKit/AlipaySDK/AlipaySDK.bundle",
       "frameworks": [
-        "CoreGraphics",
-        "Foundation",
-        "MobileCoreServices",
-        "CoreMotion",
         "SystemConfiguration",
-        "QuartzCore",
         "CoreTelephony",
-        "Security"
+        "QuartzCore",
+        "CoreText",
+        "CoreGraphics",
+        "UIKit",
+        "Foundation",
+        "CFNetwork",
+        "CoreMotion"
       ],
       "libraries": [
-        "z",
         "c++",
-        "sqlite3.0",
-        "stdc++"
+        "z"
       ]
     },
     {
@@ -45,20 +44,16 @@
       "vendored_frameworks": "HLTPLKit/TencentOpenAPI/TencentOpenAPI.framework",
       "resources": "HLTPLKit/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle",
       "frameworks": [
-        "CoreGraphics",
-        "Foundation",
-        "MobileCoreServices",
-        "CoreMotion",
+        "Security",
         "SystemConfiguration",
-        "QuartzCore",
-        "CoreTelephony",
-        "Security"
+        "CoreGraphics",
+        "CoreTelephony"
       ],
       "libraries": [
-        "z",
-        "c++",
-        "sqlite3.0",
-        "stdc++"
+        "sqlite3",
+        "iconv",
+        "stdc++",
+        "z"
       ]
     },
     {
