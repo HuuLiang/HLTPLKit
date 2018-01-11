@@ -297,9 +297,13 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HLTPLKit_Example/Pods-HLTPLKit_Example-resources.sh",
+				"${PODS_ROOT}/../../HLTPLKit/AlipaySDK/AlipaySDK.bundle",
+				"${PODS_ROOT}/../../HLTPLKit/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
